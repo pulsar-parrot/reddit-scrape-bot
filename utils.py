@@ -24,10 +24,9 @@ def reddit_login():
         password=os.getenv("REDDIT_PASSWORD"),
         client_id=os.getenv("REDDIT_CLIENT_ID"),
         client_secret=os.getenv("REDDIT_CLIENT_SECRET"),
-        user_agent="testing..."
+        user_agent="vindictus update bot"
     )
 
-    print (os.getenv("REDDIT_USERNAME"))
 
     print ("Login Successful.")
 
